@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+table, table *{
+    width: 100vw;  /* para colocar a largura no maximo */
+    border-collapse: collapse;
+    border-style: solid;
+    border-color:  rgb(0, 0, 0);  
+    padding: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+table tr th {
+    background-color: black;
+    color: white;
+}
+tr, th, td{
+  border: 1px solid;
+  padding: 2vh;
+}
+.cor{
+    background-color: #f2f2f2;
+}

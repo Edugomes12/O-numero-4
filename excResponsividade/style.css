@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.box{
+    min-width: 20vw;
+    min-height: 20vh;
+    transition: 0.5s;
+}
+.box:hover {
+    cursor:pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    transform:scale(1.4) ;
+    box-shadow: 20px 0 0 0;
+}
+
+.yellow{
+    background-color: yellow;    
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+@media (max-width:768px) {
+    .box{width:100vw;
+    }    
+}
